@@ -21,11 +21,7 @@
 
     body {
       font-family: 'Segoe UI', Tahoma, sans-serif;
-      background:
-        linear-gradient(180deg, #020617ee, #020617ee),
-        url('https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=1600&q=80');
-      background-size: cover;
-      background-attachment: fixed;
+      background: linear-gradient(180deg, #020617, #020617);
       color: var(--text);
       line-height: 1.7;
     }
@@ -54,13 +50,9 @@
     nav a:hover { color: var(--primary); }
 
     header {
-      padding: 110px 20px;
+      padding: 90px 20px;
       text-align: center;
-      background:
-        linear-gradient(180deg, #020617cc, #020617ee),
-        url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80');
-      background-size: cover;
-      background-position: center;
+      background: radial-gradient(circle at top, #22c55e33, transparent 60%);
     }
 
     header h1 {
@@ -93,7 +85,7 @@
     }
 
     section {
-      padding: 80px 20px;
+      padding: 70px 20px;
       max-width: 1200px;
       margin: auto;
     }
@@ -112,11 +104,7 @@
     }
 
     .card {
-      background:
-        linear-gradient(180deg, #0b1220ee, #020617ee),
-        url('https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&w=800&q=80');
-      background-size: cover;
-      background-position: center;
+      background: linear-gradient(180deg, var(--card), #020617);
       padding: 28px;
       border-radius: 20px;
       border: 1px solid var(--border);
@@ -138,6 +126,16 @@
       color: var(--muted);
     }
 
+    .steps { max-width: 900px; margin: auto; }
+
+    .step {
+      background: #020617;
+      border-left: 4px solid var(--primary);
+      padding: 22px;
+      margin-bottom: 22px;
+      border-radius: 12px;
+    }
+
     footer {
       background: #020617;
       padding: 45px 20px;
@@ -157,58 +155,91 @@
 </head>
 <body>
 
-<a href="https://wa.me/256775148084" style="position:fixed;top:20px;right:20px;z-index:2000;background:#25D366;color:#020617;padding:12px 20px;border-radius:30px;font-weight:700;text-decoration:none;box-shadow:0 10px 30px rgba(37,211,102,0.5);">WhatsApp Support</a>
-
 <nav>
   <h2>DIGITAL EARNERS</h2>
   <div>
     <a href="#platforms">Platforms</a>
-    <a href="#agencies">Agencies</a>
+    <a href="#how">How It Works</a>
     <a href="#support">Support</a>
   </div>
 </nav>
 
 <header>
-  <h1>Earn Together. Grow Digitally.</h1>
-  <p>Trusted agencies, real conversations, and multiple online earning platforms — all combined in one powerful hub.</p>
-  <a href="#platforms" class="btn">Explore Opportunities</a>
+  <h1>One Hub. Many Digital Opportunities.</h1>
+  <p>DIGITAL EARNERS brings together multiple online earning platforms in one place, helping users discover opportunities, learn responsibly, and save time.</p>
+  <a href="#platforms" class="btn">Get Started</a>
 </header>
 
 <section id="platforms">
   <h2>Ways of Earning</h2>
   <div class="grid">
-    <div class="card"><h3>Daily Bonuses</h3><p>Earn consistent rewards for active participation on supported platforms.</p></div>
-    <div class="card"><h3>Watching Paid Videos</h3><p>Users earn by watching sponsored YouTube and promotional videos.</p></div>
-    <div class="card"><h3>Short Video Tasks</h3><p>Simple engagement with TikTok-style content for rewards.</p></div>
-    <div class="card"><h3>Answering Questions</h3><p>Survey and quiz platforms that pay for opinions and feedback.</p></div>
-    <div class="card"><h3>Trading Education</h3><p>Learn forex and digital trading through educational platforms.</p></div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1605902711622-cfb43c44367f?auto=format&fit=crop&w=800&q=80" alt="Daily bonuses earnings" style="width:100%;border-radius:14px;margin-bottom:15px;" />
+      <h3>Daily Bonuses</h3>
+      <p>Some platforms offer daily rewards to active users, encouraging consistency and regular participation.</p>
+      <a href="#" class="btn">View Platform</a>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=800&q=80" alt="Free spins rewards" style="width:100%;border-radius:14px;margin-bottom:15px;" />
+      <h3>Free Spins & Rewards</h3>
+      <p>Reward-based systems that allow users to participate without initial payments, depending on platform terms.</p>
+      <a href="#" class="btn">Explore</a>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=800&q=80" alt="Watching paid YouTube videos" style="width:100%;border-radius:14px;margin-bottom:15px;" />
+      <h3>Watching Paid Videos</h3>
+      <p>Earn by watching sponsored YouTube or promotional video content through supported platforms.</p>
+      <a href="#" class="btn">Start Watching</a>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1624561172888-ac93c696e10c?auto=format&fit=crop&w=800&q=80" alt="Short video tasks TikTok" style="width:100%;border-radius:14px;margin-bottom:15px;" />
+      <h3>Short Video Tasks</h3>
+      <p>Engage with short-form videos through simple actions such as views or likes.</p>
+      <a href="#" class="btn">View Tasks</a>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=80" alt="Answering questions surveys" style="width:100%;border-radius:14px;margin-bottom:15px;" />
+      <h3>Answering Questions</h3>
+      <p>Survey and quiz platforms that reward users for sharing opinions or completing knowledge tasks.</p>
+      <a href="#" class="btn">Answer Now</a>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800&q=80" alt="Forex trading education" style="width:100%;border-radius:14px;margin-bottom:15px;" />
+      <h3>Trading Education</h3>
+      <p>Access educational resources and demo environments to learn about digital and forex markets.</p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+  </div>
+    <div class="card"><h3>Free Spins & Rewards</h3><p>Reward-based systems that allow users to participate without initial payments, depending on platform terms.</p></div>
+    <div class="card"><h3>Watching Paid Videos</h3><p>Earn by watching sponsored YouTube or promotional video content through supported platforms.</p></div>
+    <div class="card"><h3>Short Video Tasks</h3><p>Engage with short-form videos through simple actions such as views or likes.</p></div>
+    <div class="card"><h3>Answering Questions</h3><p>Survey and quiz platforms that reward users for sharing opinions or completing knowledge tasks.</p></div>
+    <div class="card"><h3>Trading Education</h3><p>Access educational resources and demo environments to learn about digital and forex markets.</p></div>
   </div>
 </section>
 
-<section id="agencies">
-  <h2>Earntrix Agencies & Real Conversations</h2>
-  <div class="grid">
-    <div class="card"><h3>Agency Promotion</h3><p>Earntrix agencies actively promote opportunities using branded posters, stickers, and online banners.</p></div>
-    <div class="card"><h3>People Talking</h3><p>Groups discuss Earntrix earning methods via meetings, chats, and social platforms.</p></div>
-    <div class="card"><h3>Community Awareness</h3><p>Stickers, flyers, and digital ads help spread awareness of Earntrix agencies.</p></div>
+<section id="how">
+  <h2>How DIGITAL EARNERS Works</h2>
+  <div class="steps">
+    <div class="step"><strong>1. Explore</strong><br />Browse different earning platforms from one trusted website.</div>
+    <div class="step"><strong>2. Select</strong><br />Choose platforms that match your interests, time, and skills.</div>
+    <div class="step"><strong>3. Participate & Learn</strong><br />Follow platform rules responsibly and build digital experience.</div>
   </div>
 </section>
 
 <section id="support">
   <h2>Trust & Support</h2>
   <div class="grid">
-    <div class="card"><h3>24/7 Help</h3><p>Support available anytime via WhatsApp for guidance and inquiries.</p></div>
-    <div class="card"><h3>Transparency</h3><p>No guaranteed income. Earnings depend on effort and platform policies.</p></div>
-    <div class="card"><h3>Central Access</h3><p>One website connecting multiple platforms efficiently.</p></div>
+    <div class="card"><h3>24/7 Guidance</h3><p>Support is available to help users understand platforms and site navigation.</p></div>
+    <div class="card"><h3>Transparency</h3><p>DIGITAL EARNERS does not guarantee income. Earnings depend on individual effort and platform policies.</p></div>
+    <div class="card"><h3>Centralized Access</h3><p>Save time by accessing multiple opportunities from one organized hub.</p></div>
   </div>
 </section>
 
 <footer>
   <p><strong>DIGITAL EARNERS</strong> © 2025. All rights reserved.</p>
-  <p>Informational purposes only. Earn responsibly.</p>
+  <p>For informational purposes only. No guaranteed earnings.</p>
 </footer>
-
-<a href="https://wa.me/256775148084" style="position:fixed;bottom:20px;right:20px;z-index:2000;background:#25D366;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#020617;font-size:28px;text-decoration:none;box-shadow:0 10px 30px rgba(37,211,102,0.6);">💬</a>
 
 </body>
 </html>
