@@ -65,6 +65,57 @@ a {
 a:hover {
   color: #D4AF37;
 }
+section {
+      padding: 70px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 2.2rem;
+      color: var(--primary);
+      margin-bottom: 45px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 28px;
+    }
+
+    .card {
+      background: linear-gradient(180deg, var(--card), #020617);
+      padding: 28px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      transition: 0.35s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      border-color: var(--primary);
+    }
+
+    .card h3 {
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    .steps { max-width: 900px; margin: auto; }
+
+    .step {
+      background: #020617;
+      border-left: 4px solid var(--primary);
+      padding: 22px;
+      margin-bottom: 22px;
+      border-radius: 12px;
+    }
 
 /* FOOTER */
 footer {
