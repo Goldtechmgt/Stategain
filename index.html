@@ -1,20 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> STATEGAIN CONNECTIONS - REGISTER | LOGIN </title>
+  <meta name="description" content="Stategain Connections at state-gain.online presents an online earning hub that lists several ways to earn rewards—such as watching videos, completing tasks, and participating in quizzes—while also offering educational resources. The platform emphasizes a simple sign-up and earning process, though it does not guarantee income and users should evaluate opportunities carefully ." />
+   <meta name="keywords" content="State Gain, Digital Earners, DIGITAL EARNERS Facebook, state-gain, Earnfrom home, Stategain, qashempire, SuperQash connections, STATEGAIN, STATE-GAIN Connections, earn online Togo, Cameroon, Burkina Faso, Benin, online income FCFA, TikTok Stategain, Earn online Africa ">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="State Gain Connections, Wiz25">
 
-<title>STATEGAIN CONNECTIONS - REGISTER | LOGIN</title>
+ 
+  <style>
+:root{
+  --blue:#1E40AF;
+  --gold:#FBBF24;
+}
 
-<meta name="description" content="Stategain Connections presents an online earning hub with multiple ways to earn such as watching videos, completing tasks, and quizzes." />
+body{
+  margin:0;
+  font-family:Arial;
+  background:#f9fafb;
 
-<meta property="og:title" content="STATEGAIN CONNECTIONS - Earn Online">
-<meta property="og:description" content="Earn daily by watching videos, tasks and more. Join now.">
-<meta property="og:image" content="https://i.imgur.com/9Rn4F6D.jpg">
-<meta property="og:url" content="https://www.starhela.site/">
-<meta property="og:type" content="website">
 
-<style>
+/* NAV */
+nav{
+  display:flex;
+  justify-content:space-between;
+  padding:15px 40px;
+  background:white;
+  box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+nav h2 span{color:var(--gold);}
+nav a{margin-left:20px;text-decoration:none;color:black;font-weight:bold;}
+
+  
+    header {
+      padding: 90px 20px;
+      text-align: center;
+      background: radial-gradient(circle at top, #22c55e33, transparent 60%);
+    }
+
+   header h1 {
+      font-size: 2.8rem;
+      color: var(--primary);
+    }
+
+    header p {
+      max-width: 820px;
+      margin: 18px auto 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 42px;
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      color: #020617;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 700;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 15px 40px rgba(34, 197, 94, 0.5);
+    }
+
+    section {
+      padding: 70px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 2.2rem;
+      color: var(--primary);
+      margin-bottom: 45px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 28px;
+    }
+
+    .card {
+      background: linear-gradient(180deg, var(--card), #020617);
+      padding: 28px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      transition: 0.35s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      border-color: var(--primary);
+    }
+
 :root{
   --primary:#1E40AF;
   --accent:#FBBF24;
@@ -25,7 +112,7 @@
 
 body{
   margin:0;
-  font-family:Arial;
+  font-family:Arial, sans-serif;
   background:#f9fafb;
 }
 
@@ -38,14 +125,7 @@ nav{
   box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 
-nav h2{
-  font-weight:900;
-}
-
-nav h2 span{
-  color:var(--accent);
-}
-
+nav h2 span{color:var(--accent);}
 nav a{
   margin-left:20px;
   text-decoration:none;
@@ -67,8 +147,9 @@ header h1{
 
 header p{
   max-width:820px;
-  margin:auto;
+  margin:18px auto 0;
   color:var(--muted);
+  font-size:1.05rem;
 }
 
 /* BUTTON */
@@ -76,12 +157,12 @@ header p{
   display:inline-block;
   margin-top:30px;
   padding:15px 42px;
-  background:linear-gradient(135deg,#FBBF24,#D4AF37);
+  background:linear-gradient(135deg,var(--accent),#D4AF37);
   color:#020617;
   border-radius:12px;
   text-decoration:none;
   font-weight:700;
-  transition:0.3s;
+  transition:0.3s ease;
 }
 
 .btn:hover{
@@ -89,7 +170,7 @@ header p{
   box-shadow:0 15px 40px rgba(212,175,55,0.5);
 }
 
-/* SECTIONS */
+/* SECTION */
 section{
   padding:70px 20px;
   max-width:1200px;
@@ -112,11 +193,11 @@ section h2{
 
 /* CARD */
 .card{
-  background:var(--card);
+  background:linear-gradient(180deg,var(--card),#020617);
   padding:28px;
   border-radius:20px;
   border:1px solid var(--border);
-  transition:0.3s;
+  transition:0.35s ease;
   color:white;
 }
 
@@ -127,13 +208,16 @@ section h2{
 
 .card h3{
   color:var(--accent);
+  margin-bottom:12px;
+}
+
+.card p{
+  font-size:0.95rem;
+  color:var(--muted);
 }
 
 /* STEPS */
-.steps{
-  max-width:900px;
-  margin:auto;
-}
+.steps{ max-width:900px; margin:auto; }
 
 .step{
   background:#020617;
@@ -148,10 +232,12 @@ section h2{
 footer{
   background:#020617;
   text-align:center;
-  padding:20px;
+  padding:15px;
   border-top:2px solid #D4AF37;
   color:white;
 }
+
+footer strong{ color:var(--accent); }
 
 /* WHATSAPP */
 .whatsapp-float{
@@ -160,18 +246,68 @@ footer{
   right:22px;
   width:64px;
   height:64px;
-  background:#25D366;
+  background:linear-gradient(135deg,#25D366,#1ebe5d);
   border-radius:50%;
   display:flex;
   align-items:center;
   justify-content:center;
   text-decoration:none;
+  box-shadow:0 14px 40px rgba(37,211,102,0.6);
+  z-index:9999;
+  opacity:0;
+  transform:translateY(40px);
+  animation:slideIn 1s ease forwards 1s;
+}
+
+.whatsapp-icon{
+  width:32px;
+  height:32px;
+  color:#020617;
+}
+
+.whatsapp-float:hover{
+  transform:scale(1.12);
+  box-shadow:0 20px 55px rgba(37,211,102,0.85);
+}
+
+.tooltip{
+  position:absolute;
+  right:75px;
+  background:#020617;
+  color:#e5e7eb;
+  padding:8px 14px;
+  border-radius:10px;
+  font-size:0.85rem;
+  white-space:nowrap;
+  opacity:0;
+  pointer-events:none;
+  transition:0.3s ease;
+}
+
+.whatsapp-float:hover .tooltip{
+  opacity:1;
+}
+
+/* ANIMATIONS */
+@keyframes pulse{
+  0%{transform:scale(1);opacity:0.6;}
+  70%{transform:scale(1.7);opacity:0;}
+  100%{opacity:0;}
+}
+
+@keyframes slideIn{
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
 }
 
 /* HERO */
 .hero{
   position:relative;
+  width:100%;
   height:80vh;
+  overflow:hidden;
 }
 
 .hero img{
@@ -186,7 +322,8 @@ footer{
   left:50%;
   transform:translate(-50%,-50%);
   color:white;
-  background:rgba(0,0,0,0.6);
+  text-align:center;
+  background:rgba(0,0,0,0.5);
   padding:20px;
   border-radius:10px;
 }
@@ -196,106 +333,187 @@ footer{
   display:flex;
   flex-wrap:wrap;
   gap:10px;
-  justify-content:center;
   padding:20px;
+  justify-content:center;
 }
 
 .hashtag{
   background:#f3f3f3;
-  padding:8px 14px;
+  color:#16BE45;
+  border:1px solid #dcdcdc;
   border-radius:20px;
+  padding:8px 14px;
+  font-size:0.95rem;
   cursor:pointer;
+  transition:0.3s ease;
 }
 
-</style>
+.hashtag:hover{
+  background:#16BE45;
+  color:white;
+  transform:scale(1.05);
+}
+
+/* MOBILE */
+@media (max-width:600px){
+  .tooltip{display:none;}
+      }    .card h3 {
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    .steps { max-width: 900px; margin: auto; }
+
+    .step {
+      background: #020617;
+      border-left: 4px solid var(--primary);
+      padding: 22px;
+      margin-bottom: 22px;
+      border-radius: 12px;
+    }
+
+/* FOOTER */
+. footer {
+  background: #020617;
+  text-align: center;
+  padding: 15px;
+
+
+  </style>
 </head>
-
 <body>
-
 <nav>
-  <h2>STATE<span>GAIN</span></h2>
+  <h2>STATEGAIN CONNECTIONS</h2>
   <div>
-    <a href="#">WEBSITES</a>
-    <a href="https://state-gain.com/reg/Wiz25">HOW IT WORKS</a>
-    <a href="https://wa.me/256775148084">SUPPORT</a>
+    <a href="https://youtube.com/@earnfromhome5?si=CqtfAEblQXWRXMsz">WEBSITES</a>
+    <a href="https://state-gain.com/reg/Wiz25"> HOW IT WORKS </a>
+    <a href="https://wa.me/256775148084?text=Hello%20Support%20I%20Need%20Assistance%20About%20STATEGAIN%2C%20please%20link%20me%20up">SUPPORT </a>
   </div>
 </nav>
+ 
 
 <header>
-  <h1>Earn UGX50,000 DAILY</h1>
-  <p>Stategain brings together multiple online earning methods in one place.</p>
-
-  <a href="https://state-gain.com/reg/Wiz25" class="btn">JOIN NOW</a>
-
-  <div>
-    <img src="https://i.imgur.com/9Rn4F6D.jpg" style="width:200px;border-radius:50%;">
-    <h3>Earn From Home</h3>
+  <h>Earn UGX50,000 DAILY</h></>
+  <p> Stategain brings together multiple online ways of earning in one place, helping users discover opportunities, learn responsibly, and earn money using their mobile phones and internet.</p>
+ 
+  <a href="https://state-gain.com/reg/Wiz25"
+   class="btn">JOIN NOW</a>
+  <div class="profile">
+<img src="images/earn-from-home-profile.png" alt="Digital Earners" style="width:200px;border-radius:50%;">
+<h3>Earn From Home</h3>
+   
   </div>
 </header>
 
-<section>
+<section id="platforms">
   <h2>Ways of Earning</h2>
-
   <div class="grid">
-
     <div class="card">
+      <img src="https://images.unsplash.com/photo-1605902711622-cfb43c44367f?auto=format&fit=crop&w=800&q=80" alt="Daily bonuses earnings" style="width:100%;border-radius:14px;margin-bottom:15px;" />
       <h3>Daily Bonuses</h3>
-      <p>Earn rewards daily by staying active.</p>
+      <p> STATEGAIN offer daily rewards to active users, encouraging consistency and regular participation.</p>
+      <a href="https://state-gain.com/reg/Wiz25" class="btn">View Platform</a>
     </div>
-
     <div class="card">
-      <h3>Free Spins</h3>
-      <p>Get chances to earn without deposits.</p>
+      <img src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=800&q=80" alt="Free spins rewards" style="width:100%;border-radius:14px;margin-bottom:15px;" />
+      <h3>Free Spins & Rewards</h3>
+      <p>Reward-based systems that allow users to participate without initial payments, depending on platform terms.</p>
+      <a href="https://state-gain.com/reg/Wiz25" class="btn">Explore</a>
     </div>
-
     <div class="card">
-      <h3>Watch Videos</h3>
-      <p>Earn by watching content online.</p>
+      <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=800&q=80" alt="Watching paid YouTube videos" style="width:100%;border-radius:14px;margin-bottom:15px;" />
+      <h3>Watching Paid Videos</h3>
+      <p>Earn by watching sponsored YouTube or promotional video content through supported platforms.</p>
+      <a href="https://state-gain.com/reg/Wiz25" class="btn">Start Watching</a>
     </div>
-
     <div class="card">
-      <h3>Short Tasks</h3>
-      <p>Complete easy tasks and earn.</p>
+      <img src="https://images.unsplash.com/photo-1624561172888-ac93c696e10c?auto=format&fit=crop&w=800&q=80" alt="Short video tasks TikTok" style="width:100%;border-radius:14px;margin-bottom:15px;" />
+      <h3>Short Video Tasks</h3>
+      <p>Engage with short-form videos through simple actions such as views or likes.</p>
+      <a href="https://state-gain.com/reg/Wiz25" class="btn">View Tasks</a>
     </div>
-
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=80" alt="Answering questions surveys" style="width:100%;border-radius:14px;margin-bottom:15px;" />
+      <h3>Answering Questions</h3>
+      <p>Survey and quiz platforms that reward users for sharing opinions or completing knowledge tasks.</p>
+      <a href="https://state-gain.com/reg/Wiz25" class="btn">Answer Now</a>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800&q=80" alt="Forex trading education" style="width:100%;border-radius:14px;margin-bottom:15px;" />
+      <h3>Trading Education</h3>
+      <p>Access educational resources and demo environments to learn about digital and forex markets.We have a website linked on google site and Facebook it's name is Digital Earners,in this site you can get more info and also learn about our different sites linke Qashempire.</p>
+      <a href="https://state-gain.com/reg/Wiz25" class="btn">Learn More</a>
+    </div>
+  </div>
+    <div class="card"><h3>Free Spins & Rewards</h3><p>Reward-based systems that allow users to participate without initial payments, depending on platform terms.</p></div>
+    <div class="card"><h3>Watching Paid Videos</h3><p>Earn by watching sponsored YouTube or promotional video content through supported platforms like Youtube, tiktok, snapshat.</p></div>
+    <div class="card"><h3>Short Video Tasks</h3><p>Engage with short-form videos through simple actions such as views or likes.</p></div>
+    <div class="card"><h3>Answering Questions</h3><p>Survey and quiz platforms that reward users for sharing opinions or completing knowledge tasks.</p></div>
+    <div class="card"><h3>Trading Education</h3><p>Access educational resources and demo environments to learn about digital and forex markets.</p></div>
   </div>
 </section>
 
-<section>
-  <h2>How It Works</h2>
-
+<section id="how">
+  <h2>How Stategain Works</h2>
   <div class="steps">
-    <div class="step">1. Register</div>
-    <div class="step">2. Choose tasks</div>
-    <div class="step">3. Start earning</div>
+    <div class="step"><strong>1. Join Stategain </strong><br />Sign up easily and get access to trusted online earning opportunities.</div>
+    <div class="step"><strong>2. Choose an opportunity </strong><br />Browse verified platforms and select what matches your goals and skills.</div>
+    <div class="step"><strong>3. Start earning </strong><br />Follow the guidance provided and begin earning with confidence. </div>
   </div>
 </section>
 
-<section>
-  <h2>Support</h2>
-
+<section id="support">
+  <h2>Trust & Support</h2>
   <div class="grid">
-    <div class="card"><h3>24/7 Support</h3></div>
-    <div class="card"><h3>Transparency</h3></div>
-    <div class="card"><h3>Trusted System</h3></div>
+    <div class="card"><h3>24/7 Guidance</h3><p>Support is available to help users understand the ways to umlock🔓 and earn. From stategain .</p></div>
+    <div class="card"><h3>Transparency</h3><p>DIGITAL EARNERS does not guarantee income. Earnings depend on individual effort and platform policies.</p></div>
+    <div class="card"><h3>Centralized Access</h3><p>Save time by accessing multiple ways of earning in your currency. With stategain everything is possible.</p></div>
   </div>
 </section>
+  <a href="https://wa.me/256775148084?text=Hello%20Support%20I%20Need%20Assistance%20About%20STATEGAIN%2C%20please%20link%20me%20up"
+   class="whatsapp-float"
+   target="_blank"
+   aria-label="Chat with us on WhatsApp">
+  
+  <span class="tooltip">Chat with us</span>
 
-<section class="hero">
-  <img src="https://i.imgur.com/9Rn4F6D.jpg">
+  <!-- WhatsApp SVG Icon -->
+  <svg class="whatsapp-icon" viewBox="0 0 32 32">
+    <path fill="currentColor"
+      d="M19.11 17.53c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.14-.42-2.18-1.35-.81-.72-1.35-1.6-1.51-1.87-.16-.27-.02-.42.12-.56.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.48-.84-2.03-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.96.94-.96 2.29 0 1.35.98 2.65 1.12 2.83.14.18 1.93 2.95 4.69 4.13.66.28 1.17.45 1.57.58.66.21 1.26.18 1.73.11.53-.08 1.6-.65 1.83-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32z"/>
+    <path fill="currentColor"
+      d="M16 3C9.37 3 4 8.37 4 15c0 2.65.87 5.1 2.35 7.08L5 29l7.13-1.32A11.93 11.93 0 0 0 16 27c6.63 0 12-5.37 12-12S22.63 3 16 3zm0 21.82c-2.15 0-4.15-.63-5.82-1.71l-.42-.27-4.23.78.8-4.12-.28-.44A9.79 9.79 0 1 1 16 24.82z"/>
+  </svg>
+  </a>
+  <section class="hero">
+  <img src="images/hero.jpg" alt="StateGain Connections">
   <div class="hero-text">
-    <h1>Welcome to StateGain</h1>
+    <h1>Welcome to StateGain Connections</h1>
+    <p>Connecting you to smart earning opportunities</p>
   </div>
-</section>
-
-<div class="hashtags">
-  <span class="hashtag">#stategain</span>
-  <span class="hashtag">#earnonline</span>
-  <span class="hashtag">#digitalearners</span>
-</div>
-
+  </section>
+  
+      <div class="hashtags">
+  <span class="hashtag">#State-gain</span>
+  <span class="hashtag">stategain</span>
+  <span class="hashtag">#stategainconnections</span>
+  <span class="hashtag">#QashEmpire_connections</span>
+  <span class="hashtag">#stategain_uganda</span>
+  <span class="hashtag">stategain_cameroon</span>
+  <span class="hashtag">#Stategainzambia</span>
+ <span class="hashtag">#Digital_Earners</span>   
+ <span class="hashtag">#DigitalEarners</span>
+    </div>
+<br>
+  
 <footer>
-  <p>STATEGAIN CONNECTIONS © 2026</p>
+  <p><strong>STATEGAIN CONNECTIONS</strong> © 2026. All rights reserved.</p>
+  <p> Earn from home 🏡 </>
 </footer>
 
 </body>
