@@ -6,12 +6,7 @@
 
 <title>STATEGAIN CONNECTIONS</title>
 
-<meta name="description" content="Earn online with Stategain Connections. Watch videos, complete tasks and earn daily.">
-
-<meta property="og:title" content="STATEGAIN CONNECTIONS">
-<meta property="og:description" content="Earn daily online using your phone.">
-<meta property="og:image" content="https://i.imgur.com/9Rn4F6D.jpg">
-<meta property="og:type" content="website">
+<meta name="description" content="Earn online with Stategain Connections through videos, tasks, and rewards.">
 
 <style>
 :root{
@@ -33,42 +28,53 @@ body{
 nav{
   display:flex;
   justify-content:space-between;
-  padding:20px 40px;
+  padding:20px 60px;
   border-bottom:1px solid #1f2937;
 }
 
-nav h2{color:white;}
-nav span{color:var(--accent);}
+nav h2 span{color:var(--accent);}
 
 nav a{
   color:var(--muted);
-  margin-left:20px;
+  margin-left:25px;
   text-decoration:none;
+  font-weight:600;
 }
 
 nav a:hover{color:var(--accent);}
 
 /* HERO */
 .hero{
+  height:90vh;
+  background:url('https://images.unsplash.com/photo-1605902711622-cfb43c44367f?auto=format&fit=crop&w=1600&q=80') center/cover;
+  display:flex;
+  align-items:center;
+  justify-content:center;
   text-align:center;
-  padding:120px 20px;
+}
+
+.hero-content{
+  background:rgba(0,0,0,0.7);
+  padding:40px;
+  border-radius:15px;
 }
 
 .hero h1{
-  font-size:3rem;
-  font-weight:800;
+  font-size:3.5rem;
+  font-weight:900;
 }
 
 .hero p{
-  max-width:600px;
+  max-width:650px;
   margin:auto;
   color:var(--muted);
+  font-size:1.1rem;
 }
 
 .btn{
   display:inline-block;
   margin-top:25px;
-  padding:14px 40px;
+  padding:16px 45px;
   background:var(--accent);
   color:black;
   border-radius:10px;
@@ -77,52 +83,66 @@ nav a:hover{color:var(--accent);}
 
 /* SECTION */
 section{
-  padding:80px 20px;
-  max-width:1200px;
+  padding:100px 40px;
+  max-width:1300px;
   margin:auto;
 }
 
 section h2{
   text-align:center;
-  margin-bottom:40px;
+  font-size:2.5rem;
+  margin-bottom:50px;
 }
 
 /* GRID */
 .grid{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-  gap:25px;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:30px;
 }
 
 /* CARD */
 .card{
   background:var(--card);
-  padding:25px;
+  padding:20px;
   border-radius:15px;
   border:1px solid #1f2937;
   transition:0.3s;
 }
 
 .card:hover{
-  transform:translateY(-5px);
+  transform:translateY(-6px);
   border-color:var(--accent);
 }
 
-.card h3{color:var(--accent);}
-.card p{color:var(--muted);}
+.card img{
+  width:100%;
+  border-radius:10px;
+  margin-bottom:15px;
+}
+
+.card h3{
+  color:var(--accent);
+}
+
+.card p{
+  color:var(--muted);
+  line-height:1.6;
+}
 
 /* STEPS */
 .step{
   background:var(--card);
-  padding:20px;
-  margin-bottom:15px;
+  padding:25px;
+  margin-bottom:20px;
   border-left:4px solid var(--accent);
+  font-size:1.05rem;
 }
 
 /* FOOTER */
 footer{
   text-align:center;
-  padding:20px;
+  padding:30px;
   border-top:1px solid #1f2937;
 }
 
@@ -131,8 +151,8 @@ footer{
   position:fixed;
   bottom:20px;
   right:20px;
-  width:60px;
-  height:60px;
+  width:65px;
+  height:65px;
   background:#25D366;
   border-radius:50%;
 }
@@ -153,35 +173,43 @@ footer{
 
 <!-- HERO -->
 <div class="hero">
-  <h1>Earn UGX50,000 Daily</h1>
-  <p>Discover simple ways to earn money online through videos, tasks, and rewards.</p>
-  <a href="https://state-gain.com/reg/Wiz25" class="btn">Join Now</a>
+  <div class="hero-content">
+    <h1>Earn UGX50,000 Daily From Your Phone</h1>
+    <p>StateGain Connections helps you discover trusted online earning methods including watching videos, completing tasks, answering surveys, and more.</p>
+    <a href="https://state-gain.com/reg/Wiz25" class="btn">Start Earning Now</a>
+  </div>
 </div>
 
 <!-- WAYS -->
 <section>
-  <h2>Ways of Earning</h2>
+  <h2>Ways You Can Earn</h2>
 
   <div class="grid">
-    <div class="card">
-      <h3>Daily Bonuses</h3>
-      <p>Earn rewards every day by staying active.</p>
-    </div>
 
     <div class="card">
+      <img src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f">
       <h3>Watch Videos</h3>
-      <p>Get paid for watching sponsored content.</p>
+      <p>Earn money by watching sponsored YouTube and TikTok videos. Companies pay for views and engagement, and you get rewarded for your time.</p>
     </div>
 
     <div class="card">
-      <h3>Simple Tasks</h3>
-      <p>Complete small online jobs and earn instantly.</p>
+      <img src="https://images.unsplash.com/photo-1624561172888-ac93c696e10c">
+      <h3>Complete Simple Tasks</h3>
+      <p>Perform easy actions like liking posts, signing up on apps, or sharing content. These tasks take only a few minutes but can earn you daily income.</p>
     </div>
 
     <div class="card">
-      <h3>Free Rewards</h3>
-      <p>Spin, win and earn without investment.</p>
+      <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df">
+      <h3>Answer Surveys</h3>
+      <p>Companies need your opinion. Answer questions and get paid for sharing your thoughts and completing quizzes.</p>
     </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3">
+      <h3>Trading Education</h3>
+      <p>Learn how online trading works with beginner-friendly guides. Practice and grow your knowledge in digital markets.</p>
+    </div>
+
   </div>
 </section>
 
@@ -189,39 +217,37 @@ footer{
 <section>
   <h2>How It Works</h2>
 
-  <div class="step">1. Register your account</div>
-  <div class="step">2. Choose tasks</div>
-  <div class="step">3. Start earning</div>
+  <div class="step"><strong>1. Register:</strong> Create your account using the join button.</div>
+  <div class="step"><strong>2. Choose Method:</strong> Select from videos, tasks, or surveys.</div>
+  <div class="step"><strong>3. Start Earning:</strong> Follow instructions and get rewarded daily.</div>
 </section>
 
 <!-- TRUST -->
 <section>
-  <h2>Why Choose Us</h2>
+  <h2>Why Choose StateGain</h2>
 
   <div class="grid">
     <div class="card">
-      <h3>24/7 Support</h3>
-      <p>We are always here to guide you.</p>
+      <h3>Beginner Friendly</h3>
+      <p>No experience needed. Anyone with a phone can start.</p>
     </div>
 
     <div class="card">
-      <h3>Transparency</h3>
-      <p>No guaranteed income. Earn based on effort.</p>
+      <h3>Flexible</h3>
+      <p>Work anytime, anywhere at your own pace.</p>
     </div>
 
     <div class="card">
-      <h3>Easy Access</h3>
-      <p>Use your phone anytime, anywhere.</p>
+      <h3>Multiple Income Streams</h3>
+      <p>Don’t rely on one method. Earn from different platforms.</p>
     </div>
   </div>
 </section>
 
-<!-- FOOTER -->
 <footer>
   <p>STATEGAIN CONNECTIONS © 2026</p>
 </footer>
 
-<!-- WHATSAPP -->
 <a href="https://wa.me/256775148084" class="whatsapp"></a>
 
 </body>
